@@ -117,18 +117,119 @@
 # # Decimal --十进制，接受的是字符串
 #
 # 赋值运算
-name = "xiaozhang"
-name +="wang"
-name =name +1
-print(name)
-age = 19
-age -= 1
-# age = age -1
-print(age)
+# name = "xiaozhang"
+# name +="wang"
+# name =name +1
+# print(name)
+# age = 19
+# age -= 1
+# # age = age -1
+# print(age)
 
 # 比较运算
 # > 、<、 == 、!=、 >=、 <=
-# False比较预算得到的是布尔值，True/
+# False比较预算得到的是布尔值，True/False
+# 逻辑运算and not or
+# and 并且
+# print(1 ==1 and 2 == 2)
+# # or  或则
+# print(1 == 1 or 2==3)
+# # not 取反的  优先级；逻辑运算返回的是布尔值
+# print(not(1 == 1 or 2==3))
+
+# 逻辑运算
+# 成员运算  字符串、列表、元祖、字典
+#
+# in 和 not in
+# 字符串
+# print("abc" in "abcdefg")
+# 列表
+# print(1 in (1,23,"acd"))
+# 字典：字典判断的key值，不是value值
+# print("name" in {"name":"zhangsan","age":12})
+# print("zhangsan " in {"name":"zhangsan","age":12}values())
+
+# a = (12.02,)
+# type(a)
+# if type(a) == int:
+#     print("一切正常")
+# elif type(a) == float:
+#     print("abc")
+# else:
+#     print("继续努力")
+# if(条件表达式 and 条件二)：<遇到冒号需要进行缩进>
+#     print("条件判断")
+# elif (条件判断)：
+#     print("判断语句")
+# # 其他情况
+# else:
+# #     print()
+# if a ==1:
+#     pass
+# else:
+#     print("end")
+
+
+
+
+# For循环：
+# names = ["张三丰","东方不败","孙悟空","扫地僧"]
+# for i in names:
+#     print("中奖人员:{}".format(i))
+# 字符串的循环
+# list = "he is a handsome"
+# for i in list:
+#     print(i,end="/")
+# 字典的循环，遍历
+# banji = {"name":"zhangsan","age":18,"sexy":"nc"}
+# # 获取所有的keys:
+# for i in banji.keys():
+#     # 获取所有的valus()
+# for i in banji.values():
+#     # 同时获取keys和values()
+# for i in banji.items():
+# for i,v in banji.items():
+#     print(i)
+#     print(v)
+#
+
+# while(条件表达式):
+# while True:
+#     print("一切都会好的")
+# A_accept =0
+# while (A_accept <10000):
+#     print("我喜欢 杨紫")
+#     print(A_accept)
+#     A_accept += 1
+# print("那是不可能的")
+#
+# A_accept =0
+# while True:
+#     print("一切都会好的")
+#     if A_accept <1000:
+#         print("被拒绝了")
+#         print(A_accept)
+#         break
+#     #break 终止程序--手动执行终止
+#     # continue  退出这个程序，进入下一个程序
+#     A_accept +=1
+#
+# print("error")
+
+# my_list = [("本本","海鸥"),("yuze","海明"),("xiaoxue","xuehua")]
+# for name in my_list:
+#     # print(name)
+#     for i in name:
+# #         print(i)
+# list_1 = [1,2,3]
+# list_2 = [3,4,5]
+# for v1 in list_1:
+#     # v1=1
+#     for v2 in list_2:
+#         v2=3
+#         print("{}+{}={}".format(v1,v2,v1+v2))
+#         index2+1=index2
+
 
 
 
